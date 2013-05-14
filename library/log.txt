@@ -1,0 +1,16 @@
+PolyMaster - A Lightweight Wordpress Developer Template
+
+This theme is meant to make development easier & take
+advantage of modern web development & design techniques.
+For more information, please visit:
+
+http://wahmaster.com/polymaster/
+
+Author: Jeff Soule
+
+/******************************************************************
+POLYMASTER CHANGE LOG & HISTORY
+******************************************************************/
+/* v1.00 */
+- Found Bones"
+- Made it Mine

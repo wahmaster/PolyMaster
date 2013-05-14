@@ -1,0 +1,39 @@
+/******************************************************************
+PolyMaster
+A Mobile First Responsive Wordpress Development Theme
+
+PolyMaster is based off Bones and TwentyThirteen. Since this theme 
+makes use of new features found in WordPress V3.6 it is NOT bacward
+compatible with earlier versions of WordPress.
+
+From Bones I kept SCSS and dropped LESS.  I have nothing against 
+LESS, but I had to settle on one or the other for my development and
+LESS ended up getting the boot.
+
+I tried to keep as much of the goodness of Bones and only pulling in 
+what I felt was most interesting at the time from TwentyThirteen.
+
+TODO:
+Add more customization options for header background colors.
+Add support for adding svg images to background setting customizations.
+
+Designed by Jeff Soule
+http://wahmaster.com/polymaster
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+Are You Serious? Yes.
+
+Special Thanks to:
+Eddie Machado for the awesome Bones theme that I started with.
+The team that build the TwentyThirteen theme that I "borrowed parts from".
+Paul Irish & the HTML5 Boilerplate.
+Yoast for some WP functions & optimization ideas.
+Andrew Rogers for code optimization.
+David Dellanave for speed & code optimization.
+and several other developers.
+
+
+******************************************************************/
+
+/* v1.00 initial */
