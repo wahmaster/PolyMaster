@@ -197,12 +197,18 @@ function eleven_col($atts, $content = null){
 }
 add_shortcode('eleven_col', 'eleven_col');
 
+// Creates shortcode [twelve_col clear='yes/no' first='no' last='no']
 function twelve_col($atts, $content = null){
 	extract(shortcode_atts( array(
-		'last' => '',
-		'first' => ''
+		'last' => 'no',
+		'first' => 'no',
+		'clear' => 'no'
 	), $atts));
-	
+	if ($clear == 'yes') {
+		$clearit = 'clearfix';
+	} else {
+		$clearit = '';
+	}
 	if ( $last == 'yes') {
 		$position = 'last';
 	} else if($first == 'yes') {
@@ -210,7 +216,11 @@ function twelve_col($atts, $content = null){
 	} else {
 		$position = '';
 	}
+	if ($clearit == 'clear'){
+		return '<div class="twelvecol '.$clearit.' ' . $position . '">' . do_shortcode( $content) . '</div>';
+	} else {
+		return '<div class="twelvecol ' . $position . '">' . do_shortcode( $content) . '</div>';	
+	}
 	
-	return '<div class="twelvecol ' . $position . '">' . do_shortcode( $content) . '</div>';
 }
 add_shortcode('twelve_col', 'twelve_col');

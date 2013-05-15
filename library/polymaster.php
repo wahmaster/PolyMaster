@@ -49,6 +49,8 @@ function poly_init() {
     add_filter('the_content', 'poly_filter_ptags_on_images');
     // cleaning up excerpt
     add_filter('excerpt_more', 'poly_excerpt_more');
+	// Remove the auto paragraph and line break filter
+	remove_filter('the_content', 'wpautop');
 
 } /* end poly init */
 
